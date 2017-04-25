@@ -1,5 +1,10 @@
 # README
 
+# Учебник Ruby on Rails: "hello, world!"
+Это первое приложение для
+[*RubyonRailsTutorial*](http://www.railstutorial.org/)
+[Майкл Хартл](http://www.michaelhartl.com/).
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
