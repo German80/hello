@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
@@ -45,12 +46,9 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 end
 
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-group :development, :test do
-  gem "sqlite3-ruby", :require => "sqlite3"
-end
 
 group :production do
    #в окруже-ние необходимо добавить гем pg, чтобы позволить Rails общаться с Postgres2:
