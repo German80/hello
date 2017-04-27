@@ -56,6 +56,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
    #в окруже-ние необходимо добавить гем pg, чтобы позволить Rails общаться с Postgres2:
-  gem 'pg', '0.17.1'
+  gem 'pg'
   gem 'rails_12factor'
 end
